@@ -21,6 +21,7 @@ jobs:
         with:
           auto-update-conda: true
           auto-activate-base: false
+          python-version: 3.8
           activate-environment: "build-datasets"
           channels: huggingface,conda-forge
 
