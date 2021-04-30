@@ -15,7 +15,7 @@ requirements:
     - python
     - pip
     - numpy >=1.17
-    - pyarrow >=0.17.1
+    - pyarrow >=1.0.0
     - python-xxhash
     - dill
     - pandas
@@ -25,13 +25,13 @@ requirements:
     - multiprocess
     - importlib_metadata
     - fsspec
-    - huggingface_hub
+    - huggingface_hub <0.1.0
     - packaging
   run:
     - python
     - pip
     - numpy >=1.17
-    - pyarrow >=0.17.1
+    - pyarrow >=1.0.0
     - python-xxhash
     - dill
     - pandas
@@ -41,7 +41,7 @@ requirements:
     - multiprocess
     - importlib_metadata
     - fsspec
-    - huggingface_hub
+    - huggingface_hub <0.1.0
     - packaging
 
 test:
