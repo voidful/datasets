@@ -14,7 +14,6 @@ requirements:
   host:
     - python
     - pip
-    - wheel
     - numpy >=1.17
     - pyarrow >=1.0.0
     - python-xxhash
@@ -26,12 +25,11 @@ requirements:
     - multiprocess
     - importlib_metadata
     - fsspec
-    - huggingface_hub <0.1.0
+    - huggingface_hub<0.1.0
     - packaging
   run:
     - python
     - pip
-    - wheel
     - numpy >=1.17
     - pyarrow >=1.0.0
     - python-xxhash
@@ -43,7 +41,7 @@ requirements:
     - multiprocess
     - importlib_metadata
     - fsspec
-    - huggingface_hub <0.1.0
+    - huggingface_hub<0.1.0
     - packaging
 
 test:
