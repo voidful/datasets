@@ -25,7 +25,6 @@ requirements:
     - multiprocess
     - importlib_metadata
     - fsspec
-    - huggingface_hub
     - packaging
   run:
     - python
@@ -41,7 +40,6 @@ requirements:
     - multiprocess
     - importlib_metadata
     - fsspec
-    - huggingface_hub
     - packaging
 
 test:
