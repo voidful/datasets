@@ -11,13 +11,10 @@ build:
   noarch: python
 
 requirements:
-  build:
-    - python x.x
-    - setuptools
-    - huggingface_hub <0.1.0
   host:
     - python
     - pip
+    - setuptools
     - numpy >=1.17
     - pyarrow >=1.0.0
     - python-xxhash
@@ -34,6 +31,7 @@ requirements:
   run:
     - python
     - pip
+    - setuptools
     - numpy >=1.17
     - pyarrow >=1.0.0
     - python-xxhash
