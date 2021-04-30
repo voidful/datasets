@@ -64,4 +64,4 @@ from .utils import *
 from .utils.tqdm_utils import disable_progress_bar
 
 
-SCRIPTS_VERSION = "master"
+SCRIPTS_VERSION = __version__
