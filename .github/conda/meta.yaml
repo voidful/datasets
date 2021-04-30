@@ -23,6 +23,7 @@ requirements:
     - tqdm >=4.27,<4.50.0
     - dataclasses
     - multiprocess
+    - fsspec
     - huggingface_hub <0.1.0
   run:
     - python
@@ -36,6 +37,7 @@ requirements:
     - tqdm >=4.27,<4.50.0
     - dataclasses
     - multiprocess
+    - fsspec
     - huggingface_hub <0.1.0
 
 test:
