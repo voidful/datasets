@@ -426,15 +426,6 @@ _TRAIN_SUBSETS = [
         path=("corpus.en_ru.1m.ru", "corpus.en_ru.1m.en"),
     ),
     # pylint:enable=line-too-long
-] + [
-    SubDataset(  # pylint:disable=g-complex-comprehension
-        name=ss,
-        target="en",
-        sources={"zh"},
-        url="ftp://cwmt-wmt:cwmt-wmt@datasets.nju.edu.cn/parallel/%s.zip" % ss,
-        path=("%s/*_c[hn].txt" % ss, "%s/*_en.txt" % ss),
-    )
-    for ss in CWMT_SUBSET_NAMES
 ]
 
 _DEV_SUBSETS = [
